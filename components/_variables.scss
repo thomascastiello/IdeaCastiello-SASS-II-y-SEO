@@ -1,0 +1,27 @@
+$colornf: black;
+$colornf2: #15498A;
+$colorf: #393E46;
+$font-size1: 2rem;
+$font-size2:1rem;
+
+.colornf{
+        background-color: $colornf;
+    }
+
+h1{
+    width: auto;
+    color: white;
+    font-size:1rem + $font-size1;
+    text-align: center;
+}
+
+section{
+    p{
+        border-style:groove;
+        border-width: thick;
+        border-radius: 1rem;
+        padding-left: 1rem;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        letter-spacing: 3px;
+    }
+}

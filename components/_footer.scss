@@ -1,0 +1,51 @@
+
+$colorft:#393E46;
+
+//con anidacion
+
+.grupo-2{
+    background-color: $colorft;
+    padding: 10px 10px;
+    margin-top: 1rem;
+    color: white;
+    text-align: center;
+    small{
+        font-size: 16px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
+
+
+.redsocial{
+    margin-left: 8em;
+    margin-right: 8rem;
+    a{
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        color: white;
+        background-color: $colorft;
+        text-align: center;
+        border-radius: 50%;
+        text-decoration: none;
+    }
+}
+.redsocial a:hover{
+    transition: 0.8s;
+}
+
+.cfb:hover{
+    background-color: #0572E6;
+}
+
+.cins:hover{
+    background-color: #7836AA;
+}
+
+.ctw:hover{
+    background-color: #56D7FE;
+}
+
+.cwp:hover{
+    background-color: #36B547;
+}

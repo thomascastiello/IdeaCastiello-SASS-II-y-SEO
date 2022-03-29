@@ -1,0 +1,29 @@
+$colornf2: #15498A;
+$colorf: #393E46;
+@mixin fontStyle($color, $fontSize, $colortwo){
+    font-size: $fontSize;
+    color:$colortwo;
+    background-color: $color;
+}
+
+.titulo{
+    h4{
+        border-radius: 7rem;
+        @include fontStyle(red, 25px, $colornf);
+        padding-left: 1rem;
+    }
+}
+
+h3{
+    @extend h4;
+    background-color:$colorf ;
+    padding-right: 1rem;
+    
+}
+
+section{
+    h1{
+        text-shadow: 4px 4px $colornf;
+        font-style: italic;
+    }
+}

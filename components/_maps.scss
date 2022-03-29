@@ -1,0 +1,9 @@
+$colores: (
+    'primario': black,
+    'secundario': #15498A 
+);
+
+h1{
+    background-color: map-get($map: $colores, $key: 'secundario' );
+}
+
